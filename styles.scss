@@ -1,0 +1,41 @@
+.loader {
+    height: 150px;
+    width: 200px;
+    margin: 0 auto;
+
+    span {
+        margin: 35px 5px;
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background: orangered;
+        animation: bounce 1s ease-in infinite;
+
+        &:nth-of-type(2) {
+            animation-delay: 0.2s;
+        }
+
+        &:nth-of-type(3) {
+            animation-delay: 0.4s;
+        }
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-20px);
+    }
+
+    75% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
