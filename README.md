@@ -1,2 +1,1 @@
-# bouncing-ball
-CSS animation Bouncing ball using SCSS
+# CSS animation Bouncing ball using SCSS
